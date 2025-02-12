@@ -25,7 +25,7 @@ do
             ;;
 
         b)
-            udp=/root/udp.txt #Here you can change your path
+            udp=/root/udp.txt #Here you can change your path, please specify your path
             if [ -f $udp ]; then
                 echo "Appending the file on $udp"
             else
